@@ -1,0 +1,18 @@
+{
+  "servers": {
+    "arc1": {
+      "type": "stdio",
+      "command": "<ARC1_COMMAND>",
+      "args": [
+        "<ARC1_ARG_1>",
+        "<ARC1_ARG_2>"
+      ],
+      "env": {
+        "ARC1_BASE_URL": "https://<arc1-host>",
+        "ARC1_USERNAME": "<your-arc1-user>",
+        "ARC1_PASSWORD": "<your-arc1-password>",
+        "ARC1_TENANT": "<tenant-if-needed>"
+      }
+    }
+  }
+}
